@@ -1,0 +1,24 @@
+{
+  "name": "stackstarter",
+  "version": "1.0.0",
+  "author": {
+    "name": "Marvin Janssen",
+    "url": "https://marvinjanssen.me/"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  },
+  "dependencies": {
+    "bn.js": "^5.1.3",
+    "@blockstack/clarity": "^0.1.16",
+    "@blockstack/clarity-native-bin": "^0.1.16",
+    "@blockstack/stacks-transactions": "^0.6.0-test.1"
+  }
+}
